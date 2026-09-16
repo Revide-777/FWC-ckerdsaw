@@ -1,0 +1,24 @@
+.dropdown {
+  position: relative;
+  background-color: chartreuse;
+  display: inline-block;
+  padding-right: 250px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    min-width:130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3-hvsbZXU2FMwafMM9LXsqFejEcWRchwbL_TdxnrYrGnAmvW5cJdH5E&s=10');
+  background-size: cover;
+}

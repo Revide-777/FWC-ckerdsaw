@@ -1,0 +1,39 @@
+body, html{
+    height:100%;
+    margin: 0%;
+}
+.parallax1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjkurO8kTSJa68En5vbne1xixEbYRThZ1aUk9kPPMQ9C80xUjCHSTtryg&s=10');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.parallax2{
+    background-image: url('https://www.hudsonanimalhospitalnyc.com/wp-content/uploads/2024/11/golden-retriever-dog-breed-info.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.between{
+    height:1000px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color:aliceblue;
+}
