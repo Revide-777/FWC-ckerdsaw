@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ckerdsaw & Sarompra | Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+        }
+        /* Simple fade-in animation for load */
+        .fade-in {
+            animation: fadeIn 1s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-white min-h-screen flex flex-col items-center justify-center antialiased selection:bg-indigo-500 selection:text-white relative overflow-hidden">
+    
+    <!-- Subtle background ambient glow for aesthetics -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-indigo-600/20 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
+
+    <main class="text-center px-6 z-10 w-full max-w-3xl mx-auto fade-in">
+        
+        <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold mb-12 tracking-tight text-gray-100">
+            Welcome to our duo Portfolio. <br class="sm:hidden" />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Ckerdsaw, and Sarompra</span>
+        </h1>
+        
+        <div class="flex flex-col sm:flex-row gap-5 justify-center items-center">
+            <!-- Your Portfolio Button -->
+            <a href="../portfolio/SnapFolio/ChanPort.html" class="w-full sm:w-auto px-8 py-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(79,70,229,0.3)] hover:shadow-[0_0_25px_rgba(79,70,229,0.5)] transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                Ckerdsaw
+            </a>
+            
+            <!-- Friend's Portfolio Button -->
+            <a href="../portfolio2/SnapFolio/TarPort.html" class="w-full sm:w-auto px-8 py-4 rounded-full bg-gray-900/50 border border-gray-700 hover:border-gray-400 hover:bg-gray-800 text-gray-300 hover:text-white font-semibold text-lg backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                Sarompra
+            </a>
+        </div>
+        
+    </main>
+
+</body>
+</html>
