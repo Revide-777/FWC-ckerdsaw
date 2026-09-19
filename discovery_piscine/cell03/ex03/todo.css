@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(246, 252, 252);
+}
+
+#ft_list{
+    padding-top: 15px;
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#ft_list div{
+    background-color: rgb(106, 255, 178);
+    font-style: italic;
+}
